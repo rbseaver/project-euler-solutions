@@ -1,1 +1,1 @@
-console.log('I\'m a simple Typescript project!');
+console.log('Go, Euler!');

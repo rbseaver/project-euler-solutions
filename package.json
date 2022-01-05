@@ -1,7 +1,7 @@
 {
-  "name": "typescript-starter-project",
+  "name": "project-euler-solutions",
   "version": "1.0.0",
-  "description": "barebones project for starting a Typescript/Node project",
+  "description": "Personal repo for solving problems at https://projecteuler.net/",
   "main": "index.ts",
   "author": "Rob Seaver <rob.seaver@gmail.com>",
   "license": "MIT",
