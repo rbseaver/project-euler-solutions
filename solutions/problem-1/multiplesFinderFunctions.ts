@@ -1,9 +1,8 @@
-export default class MultipleFinder {
-	private MAX_LIMIT = 1000;
+	const MAX_LIMIT = 1000;
 
-	getMultiplesOf(of: number[], limit?: number): number[] {
+	export const getMultiplesOf = (of: number[], limit?: number): number[] =>{
 		const multiples: number[] = [];
-		const upperBound = limit ?? this.MAX_LIMIT;
+		const upperBound = limit ?? MAX_LIMIT;
 
 		for (let i: number = 0; i < upperBound; i++) {
 			of.forEach(o => {
@@ -19,8 +18,6 @@ export default class MultipleFinder {
 		return multiples;
 	}
 
-	getSum(multiples: number[]) {
+	export const getSum = (multiples: number[]) =>{
 		return multiples.reduce((acc, curr) => acc + curr);
 	}
-
-}
